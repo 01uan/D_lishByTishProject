@@ -31,8 +31,10 @@ ul {
 li {
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 30px;
+    margin-right: 5em;
     font-size: large;
+    font-family: "Californian FB", "Times New Roman", serif;
+    font-weight: bold;
 }
 
 .custom-bg {
@@ -40,21 +42,25 @@ li {
 }
 
 /* SALES PITCH & CAROUSEL */
+
 .carousel img {
-    margin-top: 50px;
+    height: auto;
+    margin-top: 2em;
     padding-top: 10px;
     width: 100%;
 }
 
 .flex-vert {
-    margin-top: 50px;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 35em;
 }
 
 .emphasis {
     color: cornflowerblue;
+    font-family: "Californian FB", "Times New Roman", serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -68,28 +74,57 @@ section {
 
 /* LOCATION / HOURS SECTION STYLES */
 
- .shaded {
-     background-color: rgb(253, 235, 211);
+.shaded {
+    background-color: rgb(253, 235, 211);
 }
 
 h2, h3 {
-     padding-top: 10px;
- }
+    padding-top: 10px;
+}
 
- td {
-     padding: 10px 40px;
-     font-size: 20px;
- }
+td {
+    padding: 10px 40px;
+    font-size: 20px;
+}
 
- th {
-     font-weight: normal;
-     font-size: 20px;
+th {
+    font-weight: normal;
+    font-size: 20px;
+}
 
- }
+.contact {
+    font-size: 20px;
+}
 
- /* ABOUT SECTION STYLES */
+p, .contactHeading {
+    font-size: 18px;
+}
+
+h2, h3 {
+    font-family: "Californian FB", "Times New Roman", serif;
+    font-weight: bold;
+}
+
+/* ABOUT SECTION STYLES */
 #tisha {
     padding-top: 10px;
 }
 
-
+@media (max-width: 768px) {
+    .row {
+        margin-top: 20px;
+    }
+    .contact, .contactHeading, th, td, p {
+        font-size: 16px;
+    }
+    .carousel img {
+        height: auto;
+        width: 100%;
+    }
+    .about img {
+        margin-bottom: 20px;
+    }
+    .about p {
+        text-align: justify;
+    }
+}

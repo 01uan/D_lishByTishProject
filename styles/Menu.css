@@ -1,0 +1,63 @@
+header {
+    background-color: #6c757d;
+}
+
+header img {
+    max-height: 80px;
+}
+
+.banner {
+    background-color: #f8f9fa;
+}
+
+.toolbar button {
+    margin: 0 5px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    font-size: 1.5rem;
+}
+
+.menu .card h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 50px;
+}
+
+.menu .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.banner img {
+    width: 100%;
+    height: 30em;
+}
+/* CSS for desktop screens */
+
+.menu img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* CSS for mobile screens */
+@media (max-width: 991px) {
+
+    .menu div {
+        margin-bottom: 10px;
+    }
+}
+
