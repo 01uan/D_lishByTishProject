@@ -53,6 +53,29 @@ footer a {
     display: block;
 }
 
+.toolbar .btn-group {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    background-color: rgb(253, 235, 211);
+    border: 3px solid lightgrey;
+}
+
+.toolbar .btn-group .btn {
+    color: #000;
+    background-color: rgb(253, 235, 211);
+    border: none;
+    font-size: large;
+    font-family: "Californian FB", "Times New Roman", serif;
+    font-weight: bold;
+    margin-right: 5em;
+}
+
+.toolbar .btn-group .btn:hover {
+    color: #fff;
+    background-color: #6c757d;
+}
+
 /* CSS for mobile screens */
 @media (max-width: 991px) {
 
