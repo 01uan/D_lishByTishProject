@@ -1,0 +1,95 @@
+/*
+Filename: Homepage.CSS
+Author: Patreece Eichel (000530681)
+Date: 2024-05-26
+Purpose:
+*/
+
+@charset "UTF-8";
+
+/* TOOLBAR STYLES */
+#header {
+    background-color: #e5b589;
+    display: grid;
+    place-items: center;
+}
+
+nav {
+    border: 3px solid lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    font-size: large;
+}
+
+.custom-bg {
+    background-color: rgb(253, 235, 211);
+}
+
+/* SALES PITCH & CAROUSEL */
+.carousel img {
+    margin-top: 50px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.flex-vert {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.emphasis {
+    color: cornflowerblue;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+section {
+    margin-top: 70px;
+}
+
+
+/* LOCATION / HOURS SECTION STYLES */
+
+ .shaded {
+     background-color: rgb(253, 235, 211);
+}
+
+h2, h3 {
+     padding-top: 10px;
+ }
+
+ td {
+     padding: 10px 40px;
+     font-size: 20px;
+ }
+
+ th {
+     font-weight: normal;
+     font-size: 20px;
+
+ }
+
+ /* ABOUT SECTION STYLES */
+#tisha {
+    padding-top: 10px;
+}
+
+
