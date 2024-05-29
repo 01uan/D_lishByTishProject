@@ -1,0 +1,44 @@
+/* TOOLBAR STYLES */
+#header {
+    background-color: #e5b589;
+    display: grid;
+    place-items: center;
+}
+
+nav {
+    border: 3px solid lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5em;
+    font-size: large;
+    font-family: "Californian FB", "Times New Roman", serif;
+    font-weight: bold;
+}
+
+.custom-bg {
+    background-color: rgb(253, 235, 211);
+}
+
+/* TEXT BLURB STYLES */
+.emphasis {
+    color: cornflowerblue;
+    font-family: "Californian FB", "Times New Roman", serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}

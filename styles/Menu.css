@@ -76,6 +76,11 @@ footer a {
     background-color: #6c757d;
 }
 
+.price {
+    font-size: large;
+    font-weight: bold;
+}
+
 /* CSS for mobile screens */
 @media (max-width: 991px) {
 
