@@ -24,13 +24,6 @@
 
 Submit project - due Friday, May 31 at 10pm (late projects will be accepted without penalty up to 8am on Monday June 3):
 
-#### Create a folder named username1username2cweb195project, where username1username2 includes all of your SaskPolytech usernames.
-  Place all of your website files and subfolders and any other project files in the folder created.
-  Zip up the folder - ensure that the name is username1username2cweb195project.zip.
-  Hand in the zip file to the dropbox (under Assessments > Dropbox).
-  Also, each group member must complete the peer evaluation in "Project Peer Evaluation 2024 CWEB195-CST.docx" and email that file as an attachment to an email message to your instructor (michael.grzesina@saskpolytech.ca).
-  Presentation - Thursday, May 30 during class time.
-
 #### Prepare a short presentation of your website (2 to 4 minutes per person).
   Display all layouts (mobile on Chrome, desktop on Chrome, and Firefox only if time permits).
   In the presentation, explain some of the following:
