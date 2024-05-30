@@ -66,3 +66,16 @@ div.board {
     margin-top: 3em;
     background-color: #7dccf3;
 }
+
+.socialMediaLink {
+    padding: 0 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: none !important;
+    }
+    .devTeam {
+        display: none;
+    }
+}
