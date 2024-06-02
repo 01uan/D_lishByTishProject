@@ -75,7 +75,15 @@ div.board {
     .footer {
         display: none !important;
     }
+
     .devTeam {
         display: none;
+    }
+
+    div.board {
+        color: black;
+        background-image: none;
+        padding: 30px;
+        margin: auto;
     }
 }
