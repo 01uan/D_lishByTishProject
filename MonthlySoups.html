@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Filename: Homepage.html
-Author: Patreece Eichel (eichel0819)
-Date: 2024-05-25
-Purpose: D'lish by Tish Monthly Soups Page
--->
-
     <meta charset="UTF-8">
     <title>Monthly Soup Schedule</title>
     <link rel="stylesheet" href="styles/Homepage.css">
@@ -24,7 +17,6 @@ Purpose: D'lish by Tish Monthly Soups Page
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
-
 
 </head>
 <body>
@@ -66,11 +58,11 @@ Purpose: D'lish by Tish Monthly Soups Page
         </nav>
     </div>
 </header>
-
+    <div class="container-fluid">
     <!--- Text Blurb --->
     <div class="row mb-3">
-        <div class="col-sm-1"></div><!-- filler column -->
-        <div class="col-sm-10 col-md-11">
+        <div class="col-1"></div><!-- filler column -->
+        <div class="col-sm-10 col-md-10">
             <h2 class="emphasis">Monthly Soups</h2>
             <p>All our soups are made from scratch each morning, so they are not available until 11:15. If you try and order soups through Uber before that time we will have to cancel your order.<br/>Click on any soups shown below to view dietary considerations (Gluten Free/Vegetarian). </p>
         </div>
@@ -79,23 +71,18 @@ Purpose: D'lish by Tish Monthly Soups Page
     <!-- Calendar (Desktop) -->
     <div class="row">
         <div class="col-sm-1"></div><!-- filler column -->
-        <div id="desktopCal" class="col-sm-11 col-md-11 d-none d-md-block">
+        <div id="desktopCal" class="col-11 d-none d-sm-block">
             <iframe src="https://calendar.google.com/calendar/embed?src=8159aa77fcf9630186214a742d87a8a1590880e1e1e37c5f2dff54c2757a0167%40group.calendar.google.com&ctz=America%2FRegina" style="border: 0" width="80%" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
     </div>
 
-    <!-- Calendar (Mobile) -->
-    <div class="row">
-        <div class="col-sm-1"></div><!-- filler column -->
-        <div id="mobileCal" class="col-sm-10 d-none d-sm-block d-md-none"><!-- hidden from desktop view -->
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FRegina&bgcolor=%23ffffff&mode=AGENDA&showTitle=0&showPrint=0&showTabs=0&src=ODE1OWFhNzdmY2Y5NjMwMTg2MjE0YTc0MmQ4N2E4YTE1OTA4ODBlMWUxZTM3YzVmMmRmZjU0YzI3NTdhMDE2N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
+    <!-- Calendar (small screens) -->
+    <div class="row mobile">
+        <div class="col-1"></div><!-- filler column -->
+        <div id="mobileCal" class="col-10 d-block d-sm-none"><!-- hidden from desktop view -->
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FRegina&bgcolor=%23ffffff&showTitle=0&showNav=0&showTz=0&showTabs=0&showPrint=0&mode=AGENDA&src=ODE1OWFhNzdmY2Y5NjMwMTg2MjE0YTc0MmQ4N2E4YTE1OTA4ODBlMWUxZTM3YzVmMmRmZjU0YzI3NTdhMDE2N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E" style="border-width:0" width="300" height="600" frameborder="0" scrolling="no"></iframe>        </div>
     </div>
-
-</body>
-<footer>    <!-- Footer -->
-    <!-- Only shown on desktop -->
-    <div class="row footer .d-none .d-lg-block">
+    </div> <div class="row footer .d-none .d-lg-block">
 
         <!-- filler column -->
         <div class="col-1"></div>
@@ -135,15 +122,5 @@ Purpose: D'lish by Tish Monthly Soups Page
             <a href="https://www.instagram.com/lifeisdlish/?hl=en"><img src="images/instagram.png" class="socialMediaLink" height="75em" alt="Instagram Link"/></a>
         </div>
     </div>
-
-    <!-- Development Team Link -->
-    <!-- Only shown on desktop -->
-    <div class="row devTeam">
-
-        <!-- filler column -->
-        <div class="col-9 d-none d-lg-block"></div>
-
-    </div>
-
-</footer>
+</body>
 </html>
